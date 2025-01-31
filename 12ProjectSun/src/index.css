@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding : 0;
+  
+}
+.main{
+  position: relative;
+  width: 100%;
+  height: 60rem;
+  overflow: hidden;
+}
+video{
+  positon: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;;
+  z-index: -1;
+}
+/*
+.content {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  height: 100%;
+  top:0;
+ 
+  width: 100%;
+ 
+
+}
+.Navbar{ 
+  display: flex;
+  justify-content : space-between;
+  flex-direction: rows;
+  font-size: 1.5rem;
+  width : 100%;
+  height: 10%;
+  background: rgba(0,0,0,0.1);
+
+  top:0;
+  left : 0;
+  z-index: 0;
+
+/* } 
+.Navbar:hover{
+  background: rgba(0,0,0,0.5);
+}
+button{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 2rem;
+  margin-right: 4rem;
+}   */ */
+
+
+
+
+.content {
+  position: absolute;
+  z-index: 1;
+  color: Black;
+  height: 100%;
+  top:0;
+  
+  width: 100%;
+}
+
+
+
+
+.Navbar{ 
+  display: flex;
+  justify-content : space-between;
+  flex-direction: rows;
+  font-size: 1.5rem;
+  width : 100%;
+  height: 10%;
+  font-family: monospace;
+  position:absolute;
+  top:1rem;
+  left : 0;
+  z-index: 1;
+  color : Black;
+}
+
+
+Link{
+  background: rgba(0,0,0,0.5);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 1rem;
+  margin-right: 4rem;
+} 
+
+
+
+/* adding animation to hero pic */
+@keyframes hero{
+  from{
+   width: 10rem;
+   height: 10rem;
+   
+  }
+  to{
+    width: 25rem;
+    height: 25rem;
+    
+  }
+}
+@keyframes hero1{
+  0%{
+   transform: rotate(-2deg);
+  }
+  50%{
+     transform: rotate(2deg);
+  }
+  100%{
+    transform: rotate(-2deg);
+  }
+}
+
+
+.hero{
+  
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  top: 15rem;
+  left: 10rem;
+  animation: hero1 4s linear infinite; 
+  
+  
+}
+.hero1{
+  width: 10rem;
+  height:10rem;
+  background-image: url('../src/Video/astronaut.png');
+  background-repeat : no-repeat;
+  background-size :contain;
+  animation: hero 2s linear 1 forwards; 
+} 
+
+.hero-text{
+  position: absolute;
+  height: 18rem;
+  width: 43rem;
+  top: 15rem;
+  right: 15rem;
+  color: white;
+  overflow: hidden;
+  background : rgba(0,0,0,0.5);
+  border-radius: 2rem;
+  z-index: 1;
+}
+
+.hero-text h1{
+  font-size: 2rem;
+  padding: 1rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  
+}
+
+
+.p1{
+  margin-left: 1rem;
+  width: 100%;
+  overflow : hidden;
+  white-space: nowrap;
+  animation: typing 3s ;
+}
+ 
+
+
+
+@keyframes typing{
+  from{
+    width:0;
+  }
+  to{
+    width: 40rem;
+  }
+
+}
+
+
+/* adding css to hero text */
+
+
+/* .overlays{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.1);
+  top:0;
+  left : 0;
+  z-index: 0;
+} */
+
+.Footer{
+  background: rgba(0,0,0,0.8);
+}
+
+ 
