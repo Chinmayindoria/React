@@ -18,10 +18,12 @@ video{
   positon: absolute;
   object-fit: cover;
   height: 100%;
+  /* margin-top: 10rem; */
   width: 100%;
-  top: 0;
-  left: 0;;
-  z-index: -1;
+  top:0;
+
+  z-index: -;
+
 }
 /*
 .content {
@@ -78,20 +80,25 @@ button{
 
 
 
-.Navbar{ 
+/* .Navbar{ 
+  /* background: rgba(0,0,0,0.7);
+  
   display: flex;
+  align-items : center;
   justify-content : space-between;
   flex-direction: rows;
   font-size: 1.5rem;
-  width : 100%;
+  width : 85%;
   height: 10%;
   font-family: monospace;
   position:absolute;
-  top:1rem;
-  left : 0;
+  top: 4rem;
+  left : 11rem;
   z-index: 1;
-  color : Black;
-}
+  color : black;
+  border-radius: 0.5rem;
+  
+} */ */
 
 
 Link{
@@ -134,7 +141,7 @@ Link{
 }
 
 
-.hero{
+/* .hero{
   
   height: 10rem;
   width: 10rem;
@@ -152,7 +159,7 @@ Link{
   background-repeat : no-repeat;
   background-size :contain;
   animation: hero 2s linear 1 forwards; 
-} 
+}  */
 
 .hero-text{
   position: absolute;
@@ -216,4 +223,38 @@ Link{
   background: rgba(0,0,0,0.8);
 }
 
+
+@property --angle{
+  syntax : "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.slides::after,.slides::before{
+  content:" ";
+  position: absolute;
+  height: 79%;
+  width: 84%;
+  background-image: conic-gradient(from var(--angle),transparent,#00ff99,#006aff,#ff0095,#ff4545,#ff4545,#006aff,#00ff99);
+  top : 56%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding : 3px;
+  border-radius: 20px;
+  animation: 5s spin linear infinite;
+  display:flex;
+}
+.slides::before{
+  filter: blur(5rem);
+  opacity: 0.5;
+}
  
+@keyframes spin {
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
