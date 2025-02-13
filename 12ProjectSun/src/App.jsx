@@ -10,17 +10,11 @@ import Cards from '../src/components/Card'
 
 function App() {
   const [count, setCount] = useState(0);
-  const [current, setCurrent] = useState(0);
 
-  function nextSlide() {
-    if (current === slides.lenght() - 1) {
-      setCurrent(0)
-    }
-    else setCurrent(current + 1);
-  }
+
 
   let slides = [
-    "https://space-india.com/wp-con    tent/uploads/2024/09/Buy-Exclusive-ISRO-Merchandise-online-from-Space-Arcade-ISRO-Products-1.png",
+    "https://space-india.com/wp-content/uploads/2024/09/Buy-Exclusive-ISRO-Merchandise-online-from-Space-Arcade-ISRO-Products-1.png",
     "https://space-india.com/wp-content/uploads/2024/08/Space-Observatory.jpg",
     "https://space-india.com/wp-content/uploads/2024/08/Space-and-Astronomy-Programs-for-Schools.jpg",
     "https://space-india.com/wp-content/uploads/2024/02/Space-Outreach-Program.webp",
@@ -46,7 +40,8 @@ function App() {
 
   return (
     <>
-
+    <div className='flex flex-wrap'>
+      
       {/* Navbar */}
       <div>
         <div className="navbar h-20 w-[100rem] p-1  flex flex-row flex-nowrap gap-10 absolute top-16 left-[10rem] z-[10]">
@@ -58,7 +53,8 @@ function App() {
         </div> */}
 
         <div className="slides h-3/5 w-10/12 mt-40 mb-0 mx-40 rounded-3xl object-cover z-10 ">
-          <Slider slides={slides} current={current} setCurrent={setCurrent} />
+          <Slider slides={slides}  />
+         
         </div>
 
         <div className="h-4/5 w-full absolute top-0 -z-10">
@@ -126,6 +122,7 @@ function App() {
       <div className="bg-orange-400 h-svh m-10">
         hi
       </div>
+    </div>
     </>
   )
 }

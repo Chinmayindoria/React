@@ -10,7 +10,7 @@ import { IoCallOutline } from "react-icons/io5";
 
 function Navbar() {
     return (
-        <nav className='flex flex-nowrap gap-10 text-2xl  bg-black '>
+        <nav className='flex flex-nowrap gap-10 text-2xl w-full bg-black '>
           <div className='flex flex-col justify-center  '>
             <NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`} to = '/' >
              
@@ -39,8 +39,7 @@ function Navbar() {
  
              </div>
              Services and Program</NavLink></div>
-             <div className='flex flex-col justify-center  '>
-              <NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`}to = '/Blogs' >
+             <div className='flex flex-col justify-center  '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`}to = '/ ' >
              
 
              <div className='mx-4 text-3xl'>

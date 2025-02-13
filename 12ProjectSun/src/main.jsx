@@ -8,6 +8,8 @@ import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Footer from './components/Footer.jsx'
 import Contactus from './components/Contactus.jsx'
+import Gallery from './components/Gallery.jsx'
+import Blog from './components/Blog.jsx'
 
 
 const router = createBrowserRouter(
@@ -33,6 +35,16 @@ const router = createBrowserRouter(
 
           path: "/ContactUs",
           element: <><App/><Contactus/><Footer/></>
+        },
+        {
+
+          path: "/Gallery",
+          element: <><Gallery/></>
+        },
+        {
+
+          path: "/Blogs",
+          element: <><Blog/></>
         }
   ]
 )
