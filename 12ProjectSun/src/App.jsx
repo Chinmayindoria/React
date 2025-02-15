@@ -145,7 +145,7 @@ function App() {
 
       <div className='main w-[100%] h-[100%] flex flex-col items-center gap-[3vw] m-0 p-0 '>
 
-        <div className="navbar w-[100%] h-[5vw] flex bg-[#171E40] ">
+        <div className="navbar w-[100%] h-[6vw] flex bg-[#171E40] pl-[1vw] ">
           <Navbar/>
         </div>
 
