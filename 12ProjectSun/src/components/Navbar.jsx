@@ -18,7 +18,7 @@ function Navbar() {
       </div>
 
       <div className=' flex justify-center items-center gap-[8vw]' >
-        <div className='flex flex-col justify-center items-center '>
+        <div className='flex flex-col justify-center items-center p-[1vw] '>
           <NavLink className={({ isActive }) => `${isActive ? " text-white " : "text-white "}`} to='/' >
 
 
@@ -73,12 +73,12 @@ function Navbar() {
           <NavLink className={({ isActive }) => `${isActive ? " text-white " : "text-white "}`} to='/Gallery' >
 
 
-            <div className='flex justify-center text-[1vw] pt-[0.3vw]'>
+            <div className='flex justify-center text-[1.2vw] '>
               <GrGallery />
 
 
             </div>
-            <div className='text-[1.06vw]'>
+            <div className='text-[1.07vw]'>
               Gallery
             </div>
           </NavLink></div>
@@ -86,13 +86,13 @@ function Navbar() {
         <div className='flex flex-col justify-center  '><NavLink className={({ isActive }) => `${isActive ? " text-white " : "text-white "}`} to='/Gallery' >
 
 
-          <div className='flex justify-center text-[1.1vw]'>
+          <div className='flex justify-center '>
             <IoCallOutline />
 
 
           </div>
 
-          <div className='text-[1vw]'>
+          <div className='text-[1.07vw]'>
             Contact Us
           </div>
         </NavLink></div>
