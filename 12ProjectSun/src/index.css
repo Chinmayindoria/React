@@ -258,12 +258,11 @@ video {
 @media (max-width: 480px) {
   .navbar{
     width: 100%;
-    height: 10vw;
+    height: 20vw;
   }
 
   .newslides{
     height : 20vmax;
-    width :;
   }
 
 }
