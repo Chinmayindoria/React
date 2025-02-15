@@ -10,9 +10,13 @@ import { IoCallOutline } from "react-icons/io5";
 
 function Navbar() {
     return (
-        <nav className='flex flex-nowrap gap-10 text-2xl  bg-black '>
+        <nav className='flex w-[100%] gap-10 text-2xl justify-center items-center  '>
+
+          <div className="logo text-white">
+            Your logo
+          </div>
           <div className='flex flex-col justify-center  '>
-            <NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`} to = '/' >
+            <NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"}`} to = '/' >
              
 
              <div className='mx-3 text-3xl'>
@@ -22,7 +26,7 @@ function Navbar() {
              </div>
              Home</NavLink>
           </div>
-            <div className='flex flex-col justify-center  '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`}to = '/' >
+            <div className='flex flex-col justify-center  '><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"}`}to = '/' >
              
 
              <div className='mx-8 text-3xl'>
@@ -31,7 +35,7 @@ function Navbar() {
  
              </div>
              About Us</NavLink></div>
-             <div className='flex flex-col justify-center  '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`}to = '/' >
+             <div className='flex flex-col justify-center  '><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"}`}to = '/' >
              
 
              <div className='mx-20 text-3xl'>
@@ -40,7 +44,7 @@ function Navbar() {
              </div>
              Services and Program</NavLink></div>
              <div className='flex flex-col justify-center  '>
-              <NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`}to = '/Blogs' >
+              <NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"}`}to = '/Blogs' >
              
 
              <div className='mx-4 text-3xl'>
@@ -50,7 +54,7 @@ function Navbar() {
              </div>
              Blogs</NavLink></div>
              <div className='flex flex-col justify-center  '>
-              <NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`}to = '/Gallery' >
+              <NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"}`}to = '/Gallery' >
              
 
              <div className='mx-4 text-2xl'>
@@ -60,7 +64,7 @@ function Navbar() {
              </div>
              Gallery</NavLink></div>
 
-             <div className='flex flex-col justify-center  '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"}`}to = '/Gallery' >
+             <div className='flex flex-col justify-center  '><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"}`}to = '/Gallery' >
              
 
             <div className='mx-5 text-3xl'>
@@ -69,11 +73,11 @@ function Navbar() {
  
              </div>
              Contact Us</NavLink></div>
-           {/* <div className=' bg-white'><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"} `}  to ='/About'>About Us</NavLink></div>
-           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"} `} to= '/Services'>Services And Programs</NavLink></div>
-           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"} `} to = '/Blogs'>Blogs</NavLink></div>
-           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"} `} to='/Gallery'>Gallery</NavLink></div>
-           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-orange-300 p-10 m-5" : "text-white p-10 m-5"} `} to='/ContactUs'>Contact Us</NavLink></div> */}
+           {/* <div className=' bg-white'><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"} `}  to ='/About'>About Us</NavLink></div>
+           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"} `} to= '/Services'>Services And Programs</NavLink></div>
+           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"} `} to = '/Blogs'>Blogs</NavLink></div>
+           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"} `} to='/Gallery'>Gallery</NavLink></div>
+           <div className=' '><NavLink className={({isActive}) => `${isActive ? " text-white p-10 m-5" : "text-white p-10 m-5"} `} to='/ContactUs'>Contact Us</NavLink></div> */}
 
         
         </nav>
