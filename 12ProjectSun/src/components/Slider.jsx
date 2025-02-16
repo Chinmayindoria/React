@@ -61,7 +61,7 @@ const Slider = ({ slides }) => {
       </div>
      
 
-      <div className='absolute bottom-0 flex gap-5 py-4 w-full justify-center'>
+      <div className='SliderDots absolute bottom-0 flex gap-5 py-4 w-full justify-center'>
           {
             slides.map((s, i) => {
               console.log(current);

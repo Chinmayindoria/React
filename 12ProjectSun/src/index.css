@@ -285,6 +285,11 @@ video {
   .icon2{
     display: none;
   }
+  .SliderDots{
+    height: 4vh;
+    padding: 0.9vh 0.1vh;
+
+  }
 }
 
 
