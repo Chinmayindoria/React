@@ -98,10 +98,10 @@ function Navbar() {
         </NavLink></div>
       </div>
 
-      {/* <div className="icon bg-slate-50 mx-0 h-[2.5vw] w-[3.5vw] p-[0.4vw] px-[0.7vw] rounded-lg text-[1.9vw]">
+      <div className="icon1 bg-slate-50 mx-0 h-[2.5vw] w-[3.5vw] p-[0.4vw] px-[0.7vw] rounded-lg text-[1.9vw]">
         <CgMenu />
-      </div> */}
-      <button className="icon bg-slate-50 mx-0 h-[2.5vw] w-[4.5vw] rounded-3xl text-[1.07vw] font-semibold p-[0.3vw]">
+      </div>
+      <button className="icon2 bg-slate-50 mx-0 h-[2.5vw] w-[4.5vw] rounded-3xl text-[1.07vw] font-semibold p-[0.3vw]">
         Sign in
       </button>
 
