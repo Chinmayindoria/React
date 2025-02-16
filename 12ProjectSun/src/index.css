@@ -262,9 +262,9 @@ video {
   }
 
   .newslides{
-    height : 50vmax;
+    height : 40vmax;
     width: 100%;
-    border-radius: 0;
+    border-radius: 0px ;
   }
 
 }
