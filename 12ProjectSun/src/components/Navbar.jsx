@@ -17,7 +17,7 @@ function Navbar() {
         Your logo
       </div>
 
-      <div className=' flex justify-center items-center gap-[8vw]' >
+      <div className='Navlist flex justify-center items-center gap-[8vw]' >
         <div className='flex flex-col justify-center items-center p-[1vw] '>
           <NavLink className={({ isActive }) => `${isActive ? " text-white " : "text-white "}`} to='/' >
 

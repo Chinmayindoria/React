@@ -260,11 +260,14 @@ video {
     width: 100%;
     height: 20vw;
   }
+  .navlist{
+    display: none;
+  }
 
   .newslides{
     height : 40vmax;
     width: 100%;
-    border-radius: 0px ;
+    border-radius: 2px ;
   }
 
 }
