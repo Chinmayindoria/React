@@ -286,8 +286,8 @@ video {
     display: none;
   }
   .SliderDots{
-    height: 4vh;
-    padding: 0.9vh 0.1vh;
+    height: 1.5vh;
+    width: 3vw;
 
   }
 }

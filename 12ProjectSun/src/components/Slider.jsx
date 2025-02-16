@@ -61,7 +61,7 @@ const Slider = ({ slides }) => {
       </div>
      
 
-      <div className='SliderDots absolute bottom-0 flex gap-5 py-4 w-full justify-center'>
+      <div className=' absolute bottom-0 flex gap-5 py-4 w-full justify-center'>
           {
             slides.map((s, i) => {
               console.log(current);
@@ -70,7 +70,7 @@ const Slider = ({ slides }) => {
                 <div
 
                   key={i}
-                  className={`rounded-full w-5 h-5 ${current === i ? "bg-slate-500" : "bg-white"}`}
+                  className={`SliderDots rounded-full w-5 h-5 ${current === i ? "bg-slate-500" : "bg-white"}`}
                   onClick={() => {
                     setCurrent(i);
                   }}>
