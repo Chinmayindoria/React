@@ -275,8 +275,12 @@ video {
     border-radius: 2px ;
   }
   .icon1{
-    height: 10vh;
+    height: 3.7vh;
     width: 10vw;
+    font-size: 3.6vh;
+    padding: 0.1vh 0.5vh;
+    position: absolute;
+    right: 5vw;
   }
   .icon2{
     display: none;
