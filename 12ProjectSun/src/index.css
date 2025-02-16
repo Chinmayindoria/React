@@ -275,8 +275,8 @@ video {
     border-radius: 2px ;
   }
   .icon1{
-    height: 1vh;
-    width: 1vw;
+    height: 10vh;
+    width: 10vw;
   }
   .icon2{
     display: none;
