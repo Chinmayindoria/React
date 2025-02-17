@@ -152,10 +152,22 @@ function App() {
 
         <div className="newslides bg-red-400 w-[80vw] h-[35vw] flex relative flex-wrap overflow-hidden z-10 rounded-3xl border-slate-600 shadow-2xl ">
         <Slider  slides={slides} />
-        </div>
-
-        
+        </div> 
       </div>
+           
+      <div className=" h-[40rem] w-4/5 mx-48 mt-20 relative flex shadow-2xl bg-white-900 rounded-xl ">
+          <div className=" text-3xl text-orange-300  h-10 w-3/12 m-5  mt-20 absolute right-1/4 -translate-x-5 font-bold">
+            <h1>About Us</h1>
+          </div>
+          <div className='text-2xl text-black  w-1/2 h-4/6 m-5 mt-32 right-5 absolute font-medium'>
+            <p>Space Technology and Education Pvt. Ltd., also recognized as SPACE India, is a pioneer organization with a legacy of 24 years in developing and popularizing Astronomy, Space Science, and STEM education and experiences at Grassroots level (K-12) and beyond. As a registered Space Tutor of the Indian Space Research Organization (ISRO), SPACE India has been instrumental in creating an impact through science, and aligns with the United Nations’ Sustainable Development Goals.
+
+              SPACE India has inspired 1.5M+ Students and empowered 1,000+ Schools through a diverse range of products and services. SPACE India is the parent company of the SPACE Group of companies.</p>
+          </div>
+          <div className=" text-3xl text-white bg-red-400 h-40 w-4/12 m-5 mt-20 rounded-lg absolute left-40 ">
+            <img src="https://space-india.com/wp-content/uploads/2024/04/Cover-Images-with-Logo-2048x1729.png" alt="" />
+          </div>
+        </div>
    
     </>
   )
