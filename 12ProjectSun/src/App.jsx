@@ -153,12 +153,16 @@ function App() {
 
         <div className="newslides w-[80vw] h-[35vw] flex relative flex-wrap overflow-hidden z-10 rounded-3xl border-slate-600 shadow-2xl ">
         <Slider  slides={slides} />
-        </div> 
-      </div>
-           
-      <div className="About h-[40rem] w-4/5 mx-48 mt-20 relative flex shadow-2xl bg-white-900 rounded-xl ">
-      <About/>
         </div>
+
+         
+      </div>
+      <div className="Aboutus h-[40rem] w-4/5 mx-48 mt-20 relative flex shadow-2xl bg-white-900 rounded-xl text-wrap ">
+      <About/>
+        </div> 
+
+           
+     
     </>
   )
 }
