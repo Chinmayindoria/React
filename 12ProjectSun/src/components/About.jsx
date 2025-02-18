@@ -78,7 +78,7 @@ export default function About() {
       SPACE India has inspired 1.5M+ Students and empowered 1,000+ Schools through a diverse range of products and services. SPACE India is the parent company of the SPACE Group of companies.</p>
   </div> */}
 
-      <div className='text-[5vh]  font-bold  text-orange-300 text-center shadow-2xl'>
+      <div className='text-[5vh]  font-bold  text-orange-300 text-center shadow-sm'>
         About us
       </div>
      <div className=''>
