@@ -64,7 +64,7 @@ export default function About() {
     //   </div>
     // </div>
 
-    <div className='h-[100%]   w-[100%] flex flex-col  gap-[5vh]    '>
+    <div className='h-[100%]   w-[100%] flex flex-col  gap-[2vh]    '>
       {/* <div className="  h-10 w-3/12 m-5  mt-20 absolute right-1/4 -translate-x-5 font-bold">
     <h1>About Us</h1>
   </div>
