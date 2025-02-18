@@ -21,11 +21,14 @@ function App() {
 
 
   let slides = [
-    "https://space-india.com/wp-content/uploads/2024/09/Buy-Exclusive-ISRO-Merchandise-online-from-Space-Arcade-ISRO-Products-1.png",
-    "https://space-india.com/wp-content/uploads/2024/08/Space-Observatory.jpg",
     "https://space-india.com/wp-content/uploads/2024/08/Space-and-Astronomy-Programs-for-Schools.jpg",
     "https://space-india.com/wp-content/uploads/2024/02/Space-Outreach-Program.webp",
-    "https://space-india.com/wp-content/uploads/2024/02/Buy-Telescope.webp"
+    "https://space-india.com/wp-content/uploads/2024/02/Buy-Telescope.webp",
+    "https://space-india.com/wp-content/uploads/2024/08/Space-Observatory.jpg",
+    "https://space-india.com/wp-content/uploads/2024/09/Buy-Exclusive-ISRO-Merchandise-online-from-Space-Arcade-ISRO-Products-1.png"
+
+    
+ 
   ]
 
   let cards = [
@@ -157,7 +160,7 @@ function App() {
 
          
       </div>
-      <div className="Aboutus h-[40rem] w-4/5 mx-48 mt-20 relative flex shadow-2xl bg-white-900 rounded-xl text-wrap ">
+      <div className="Aboutus h-[40rem] w-4/5 mx-48 mt-20 relative flex bg-white-900 rounded-xl text-wrap ">
       <About/>
         </div> 
 

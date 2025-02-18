@@ -3,6 +3,7 @@ import "../index.css"
 
 
 
+
 const Slider = ({ slides }) => {
 
 

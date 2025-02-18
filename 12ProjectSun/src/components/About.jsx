@@ -1,5 +1,6 @@
 import React from 'react'
 import "../index.css"
+import hero from "../Video/hero.png"
 
 
 export default function About() {
@@ -63,7 +64,7 @@ export default function About() {
     //   </div>
     // </div>
 
-    <div className='About'>
+    <div className='About h-[100%] w-[100%]'>
         {/* <div className="  text-orange-300  h-10 w-3/12 m-5  mt-20 absolute right-1/4 -translate-x-5 font-bold">
     <h1>About Us</h1>
   </div>
@@ -77,7 +78,10 @@ export default function About() {
       SPACE India has inspired 1.5M+ Students and empowered 1,000+ Schools through a diverse range of products and services. SPACE India is the parent company of the SPACE Group of companies.</p>
   </div> */}
 
-  <div className='bg-black '></div>
+<div className="  h-[100%] w-[100%] ">
+    <img src={hero} className='h-[60%] w-[100%]' />
+    </div>
+
     </div>
 
  
