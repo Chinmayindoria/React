@@ -306,13 +306,9 @@ video {
     font-size : 1vh;
   }
   .Aboutus{
-    margin:0;
     width: 90%;
     margin: 10% 5%;
-    height: 40vh;
-    display: flex;
-    flex-direction : column;
-    flex-wrap : wrap;
+    height: 85vh;
   }
 }
 

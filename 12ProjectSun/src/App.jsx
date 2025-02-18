@@ -27,8 +27,8 @@ function App() {
     "https://space-india.com/wp-content/uploads/2024/08/Space-Observatory.jpg",
     "https://space-india.com/wp-content/uploads/2024/09/Buy-Exclusive-ISRO-Merchandise-online-from-Space-Arcade-ISRO-Products-1.png"
 
-    
- 
+
+
   ]
 
   let cards = [
@@ -150,22 +150,25 @@ function App() {
       <div className='main w-[100%] h-[100%] flex flex-col items-center gap-[3vw] m-0 p-0 '>
 
         <div className="navbar w-[100%] h-[6vw] flex bg-[#171E40] pl-[1vw] ">
-          <Navbar/>
+          <Navbar />
         </div>
 
 
         <div className="newslides w-[80vw] h-[35vw] flex relative flex-wrap overflow-hidden z-10 rounded-3xl border-slate-600 shadow-2xl ">
-        <Slider  slides={slides} />
+          <Slider slides={slides} />
         </div>
 
-         
-      </div>
-      <div className="Aboutus h-[40rem] w-4/5 mx-48 mt-20 relative flex bg-white-900 rounded-xl text-wrap ">
-      <About/>
-        </div> 
 
-           
-     
+      </div>
+      {/* <div className="Aboutus m-[10vh] h-[40rem] w-4/5 mx-48 mt-20 relative flex bg-white-900 rounded-xl text-wrap ">
+      <About/>
+        </div>  */}
+      <div className="Aboutus  ">
+        <About />
+      </div>
+
+
+
     </>
   )
 }

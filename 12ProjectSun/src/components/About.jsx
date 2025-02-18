@@ -64,8 +64,8 @@ export default function About() {
     //   </div>
     // </div>
 
-    <div className='About h-[100%] w-[100%]'>
-        {/* <div className="  text-orange-300  h-10 w-3/12 m-5  mt-20 absolute right-1/4 -translate-x-5 font-bold">
+    <div className='h-[100%]   w-[100%] flex flex-col  gap-[5vh]    '>
+      {/* <div className="  h-10 w-3/12 m-5  mt-20 absolute right-1/4 -translate-x-5 font-bold">
     <h1>About Us</h1>
   </div>
   <div className=" text-3xl text-white bg-red-400 h-40 w-4/12 m-5 mt-20 rounded-lg absolute left-40 ">
@@ -78,12 +78,20 @@ export default function About() {
       SPACE India has inspired 1.5M+ Students and empowered 1,000+ Schools through a diverse range of products and services. SPACE India is the parent company of the SPACE Group of companies.</p>
   </div> */}
 
-<div className="  h-[100%] w-[100%] ">
-    <img src={hero} className='h-[60%] w-[100%]' />
-    </div>
+      <div className='text-[5vh]  font-bold  text-orange-300 text-center'>
+        About us
+      </div>
+     <div className=''>
+        <p>Space Technology and Education Pvt. Ltd., also recognized as SPACE India, is a pioneer organization with a legacy of 24 years in developing and popularizing Astronomy, Space Science, and STEM education and experiences at Grassroots level (K-12) and beyond. As a registered Space Tutor of the Indian Space Research Organization (ISRO), SPACE India has been instrumental in creating an impact through science, and aligns with the United Nations’ Sustainable Development Goals.
+
+          SPACE India has inspired 1.5M+ Students and empowered 1,000+ Schools through a diverse range of products and services. SPACE India is the parent company of the SPACE Group of companies.</p>
+      </div>
+       <div className=" bg-[#E0F7FF]  text-center flex justify-center">
+        <img src={hero} className='h-[30vh] w-[]' />
+      </div>  
 
     </div>
 
- 
+  
   );
 }
