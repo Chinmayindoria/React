@@ -7,6 +7,8 @@ import { LiaBlogSolid } from "react-icons/lia";
 import { GrGallery } from "react-icons/gr";
 import { IoCallOutline } from "react-icons/io5";
 import { CgMenu } from "react-icons/cg";
+import { RxCross2 } from "react-icons/rx";
+
 import App from "../App.jsx"
 
 
@@ -18,8 +20,14 @@ function Menu() {
   maincontent.style.display = 'flex';
 
 }
+function Menuhide() {
+  console.log("ch");
+  let main = document.querySelector("*");
+  main.style.overflow = 'visible';
+  let maincontent = document.querySelector(".MenuContent");
+  maincontent.style.display = 'none';
 
-
+}
 
 function Navbar() {
   return (
@@ -33,6 +41,12 @@ function Navbar() {
         <div className=" w-[100%] h-[20vw] flex bg-[#171E40] p-[2.5vh] items-center ">
           <div className="logo text-white  ">
             Your logo
+          </div>
+          <div className='text-white h-[100%] w-[20%] text-[3vh] font-bold flex items-center absolute right-[0vh]'
+          >
+          <button onClick={Menuhide} >
+          <RxCross2 />
+          </button>
           </div>
         </div>
 
