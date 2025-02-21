@@ -13,6 +13,7 @@ import About from './components/About'
 
 
 
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -152,6 +153,8 @@ function App() {
         <div className="navbar w-[100%] h-[6vw] flex bg-[#171E40] pl-[1vw] ">
           <Navbar />
         </div>
+       
+
 
 
         <div className="newslides w-[80vw] h-[35vw] flex relative flex-wrap overflow-hidden z-10 rounded-3xl border-slate-600 shadow-2xl ">
@@ -171,7 +174,7 @@ function App() {
 
 
         <div className='flex flex-col flex-wrap h-[115vh]'>
-        <div className='  text-[5.3vh] w-[100%] h-[30vw] leading-[6vh] font-["M PLUS Rounded 1c", Sans-seri] top-0 font-bold text-orange-300   text-center p-[5%] shadow-sm  '>
+          <div className='  text-[5.3vh] w-[100%] h-[30vw] leading-[6vh] font-["M PLUS Rounded 1c", Sans-seri] top-0 font-bold text-orange-300   text-center p-[5%] shadow-sm  '>
             <h1>
               Services and Program
             </h1>
