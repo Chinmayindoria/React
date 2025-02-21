@@ -37,7 +37,7 @@ function Navbar() {
         </div>
 
 
-      <div className='flex flex-col gap-[1vh] font-semibold text-[1.5vh] p-[1.2vh]'>
+      <div className='flex flex-col gap-[0.5vh] font-semibold text-[2vh] p-[1.2vh]'>
         <ul><a>Home</a></ul>
         <ul><a>About Us</a></ul>
         <ul><a>Service and Program</a></ul>
