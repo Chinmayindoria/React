@@ -8,7 +8,7 @@ const Card = (props) => {
     // </div>
     <>
       <div className='w-[100%] h-[60vh] flex flex-col items-center flex-wrap'>
-        <div className='w-[70%] h-[100%] flex flex-col relative bg-slate-100 rounded-3xl rounded-t-3xl shadow-2xl'>
+        <div className='w-[80%] h-[100%] flex flex-col relative bg-slate-100 rounded-3xl rounded-t-3xl shadow-2xl'>
           <div className='w-full h-2/4  object-cover relative '>
             <img src={props.source} className='rounded-t-3xl h-full' alt="" />
             <div className='h-16 w-48 rounded-tr-[10rem] bg-white absolute  bottom-[0.1rem] object-contain'>

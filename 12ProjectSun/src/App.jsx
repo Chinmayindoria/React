@@ -167,17 +167,17 @@ function App() {
         <About />
       </div>
 
-      <div className='  w-[100%] h-[500vh] bg-black flex relative flex-wrap flex-col gap-[5vh]  '>
+      <div className='  w-[100%] h-[500vh] flex relative flex-wrap flex-col gap-[5vh]  '>
 
 
-        <div className='flex flex-col flex-wrap h-[100vh]'>
-        <div className='  text-[4vh] w-[100%] h-[5vh] font-["M PLUS Rounded 1c", Sans-seri] top-0 text-[#253B70] font-semibold  text-center m-[5%] shadow-lg   '>
+        <div className='flex flex-col flex-wrap h-[70vh]'>
+        <div className='  text-[5vh] w-[100%] h-[15vh] leading-[6vh] font-["M PLUS Rounded 1c", Sans-seri] top-0 font-bold text-orange-300   text-center p-[5%] shadow-sm  '>
             <h1>
               Services and Program
             </h1>
           </div>
 
-          <div className='  text-[1.5vh]  text-slate-500 m-5 mx-[5%] font-semibold '>
+          <div className='  text-[1.8vh] h-[50vh] px-[5%] w-[100%] text-slate-500 text-wrap  font-bold mt-[3vh]'>
             <p>
               Space Technology and Education Pvt. Ltd. offers a range of meticulously curated, school-based educational programs in Astronomy, Space Science, and STEM (Robotics, Drones & AI) to promote the development of 21st-century skills in students. Our programs are the culmination of years of research and are tailored to different age groups following the National Education Policy. At Space Technology and Education Pvt. Ltd., we are committed to providing high-quality educational programs that inspire the next generation of scientists and innovators. Our team of experts is dedicated to ensuring that our programs are engaging, informative, and promote a deep understanding of the fascinating world of science and technology.
 
