@@ -167,6 +167,33 @@ function App() {
         <About />
       </div>
 
+      <div className='  w-[100%] h-[500vh] bg-black flex relative flex-wrap flex-col gap-[5vh]  '>
+
+
+        <div className='flex flex-col flex-wrap h-[100vh]'>
+        <div className='  text-[4vh] w-[100%] h-[5vh] font-["M PLUS Rounded 1c", Sans-seri] top-0 text-[#253B70] font-semibold  text-center m-[5%] shadow-lg   '>
+            <h1>
+              Services and Program
+            </h1>
+          </div>
+
+          <div className='  text-[1.5vh]  text-slate-500 m-5 mx-[5%] font-semibold '>
+            <p>
+              Space Technology and Education Pvt. Ltd. offers a range of meticulously curated, school-based educational programs in Astronomy, Space Science, and STEM (Robotics, Drones & AI) to promote the development of 21st-century skills in students. Our programs are the culmination of years of research and are tailored to different age groups following the National Education Policy. At Space Technology and Education Pvt. Ltd., we are committed to providing high-quality educational programs that inspire the next generation of scientists and innovators. Our team of experts is dedicated to ensuring that our programs are engaging, informative, and promote a deep understanding of the fascinating world of science and technology.
+
+              The organization is committed to nurturing the next generation of space science students by providing unparalleled educational standards. Our passion for inspiring and mentoring students is evident in their unwavering dedication to cultivating young minds and fostering a love for space science.
+
+
+            </p>
+          </div>
+        </div>
+        {
+          cards.map((s, i) => {
+            return (< Cards source={s} icons={icons[i]} />)
+          })
+        }
+      </div>
+
 
 
     </>
