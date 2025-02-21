@@ -30,14 +30,14 @@ function Navbar() {
       </div>
 
       <div className='MenuContent hidden h-screen w-[100%] fixed top-0 left-0 bg-white flex-col gap-[5vh]  z-[1000] '>
-        <div className=" w-[100%] h-[20vw] flex bg-[#171E40] p-[3vw] items-center ">
+        <div className=" w-[100%] h-[20vw] flex bg-[#171E40] p-[2.5vh] items-center ">
           <div className="logo text-white  ">
             Your logo
           </div>
         </div>
 
 
-      <div className='flex flex-col gap-[0.5vh] font-semibold text-[2vh] p-[1.2vh]'>
+      <div className='flex flex-col gap-[0.5vh] font-semibold text-[2.5vh] p-[2vh]'>
         <ul><a>Home</a></ul>
         <ul><a>About Us</a></ul>
         <ul><a>Service and Program</a></ul>
