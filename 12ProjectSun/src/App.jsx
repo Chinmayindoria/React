@@ -167,7 +167,7 @@ function App() {
         <About />
       </div>
 
-      <div className='  w-[100%] h-[450vh] flex relative flex-wrap flex-col gap-[5vh]  '>
+      <div className='  w-[100%] h-[500vh] flex relative flex-wrap flex-col gap-[5vh]  '>
 
 
         <div className='flex flex-col flex-wrap h-[115vh]'>
