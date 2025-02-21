@@ -31,18 +31,18 @@ function Menuhide() {
 
 function Navbar() {
   return (
-    <nav className='flex w-[100%] gap-[5vw] text-2xl items-center  p-[2vw]  '>
+    <nav className='flex w-[100%] gap-[5vw] text-2xl items-center  p-[1.5vw]  '>
 
-      <div className="logo text-white ">
+      <div className="logo text-white p-[1.5vh]">
         Your logo
       </div>
 
       <div className='MenuContent hidden h-screen w-[100%] fixed top-0 left-0 bg-white flex-col gap-[5vh]  z-[1000] '>
-        <div className=" w-[100%] h-[20vw] flex bg-[#171E40] p-[2.5vh] items-center ">
+        <div className=" w-[100%] h-[19.5vw] flex bg-[#171E40] p-[2.5vh] items-center ">
           <div className="logo text-white  ">
             Your logo
           </div>
-          <div className='text-white h-[100%] w-[20%] text-[3vh] font-bold flex items-center absolute right-[0vh]'
+          <div className='text-[#171E40] bg-white h-[4%] w-[10%] text-[3.5vh] rounded-xl font-extrabold flex items-center justify-center absolute right-[3vh]'
           >
           <button onClick={Menuhide} >
           <RxCross2 />
@@ -51,7 +51,7 @@ function Navbar() {
         </div>
 
 
-      <div className='flex flex-col gap-[0.5vh] font-semibold text-[2.5vh] p-[2vh]'>
+      <div className='flex flex-col gap-[1vh] font-semibold text-[2.5vh] p-[2vh]'>
         <ul><a>Home</a></ul>
         <ul><a>About Us</a></ul>
         <ul><a>Service and Program</a></ul>
@@ -150,13 +150,13 @@ function Navbar() {
         </NavLink></div>
       </div>
 
-      <div className="icon1 bg-slate-50 mx-0 h-[2.5vw] w-[3.5vw] p-[0.4vw] px-[0.7vw] rounded-lg text-[1.9vw]">
+      <div className="icon1 flex justify-center items-center bg-slate-50 mx-0 h-[4%] w-[10%] p-[0.4vw] px-[0.7vw] rounded-lg text-[1.9vw] right-[3vh] absolute">
         <button
           onClick={Menu}>
           <CgMenu />
         </button>
       </div>
-      <button className="icon2 bg-slate-50 mx-0 h-[2.5vw] w-[4.5vw] rounded-3xl text-[1.07vw] font-semibold p-[0.3vw]">
+      <button className="icon2 bg-slate-50  h-[2.5vw] w-[4.5vw] rounded-3xl text-[1.07vw] font-semibold p-[0.3vw]">
         Sign in
       </button>
 
