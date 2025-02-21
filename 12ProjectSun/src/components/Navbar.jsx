@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className='flex w-[100%] gap-[5vw] text-2xl items-center p-[2vw]  '>
 
-      <div className="logo text-white">
+      <div className="logo text-white ">
         Your logo
       </div>
 

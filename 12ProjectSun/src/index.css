@@ -308,8 +308,23 @@ video {
   .Aboutus{
     width: 90%;
     margin: 10% 5%;
-    height: 105vh;
+    height: 100vh;
   }
+.Footer{
+  height: 100vh;
+  width: 100%;
+  background: #080D1D;
+
+}
+.Footer H1{ 
+  font-size: 5vh;
+  margin:0;
+  margin-bottom: 2vh;
+  border-radius: 1vh;
+}
+.Footer legal{
+  font-size: 10vw;
+}
 }
 
 

@@ -6,17 +6,18 @@ export default function Footer() {
     return (
         
         
-    <div className = "Footer h-96  absolute left-0  w-full bg- z-10">    
+    <div className = "Footer h-96  absolute left-0  w-full bg-[#171E40] z-10">    
         <footer className="text-zinc-50">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
-                            <img
+                            {/* <img
                                 src="iit.jpg"
                                 className="mr-3 h-52 w-96 mx-20"
                                 alt="Logo"
-                            />
+                            /> */}
+                            <h1 className='H1'>Your Logo</h1>
                         </Link>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -56,7 +57,7 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold  uppercase">Legal</h2>
+                            <h2 className="legal mb-6 text-sm font-semibold  uppercase">Legal</h2>
                             <ul className=" font-medium">
                                 <li className="mb-4">
                                     <Link to="#" className="hover:underline">
